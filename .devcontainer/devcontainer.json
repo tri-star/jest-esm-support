@@ -1,0 +1,14 @@
+{
+  "name": "My Project",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "extensions": ["editorconfig.editorconfig", "orta.vscode-jest"]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
